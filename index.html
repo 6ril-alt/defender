@@ -59,4 +59,99 @@
             border: 1px solid #d4af37;
             padding: 6px 14px;
             font-size: 0.75rem;
-            font
+            font-weight: 700;
+            letter-spacing: 1px;
+            border-radius: 20px;
+            text-transform: uppercase;
+            backdrop-filter: blur(4px);
+        }
+
+        .content {
+            padding: 30px 24px;
+        }
+
+        h1 {
+            font-size: 1.8rem;
+            font-weight: 800;
+            color: #ffffff;
+            letter-spacing: 0.5px;
+            margin-bottom: 6px;
+        }
+
+        .subtitle {
+            color: #d4af37;
+            font-size: 1.1rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            margin-bottom: 16px;
+        }
+
+        .tagline {
+            color: #94a3b8;
+            font-size: 0.95rem;
+            line-height: 1.5;
+            margin-bottom: 28px;
+        }
+
+        .phone-button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            width: 100%;
+            background: linear-gradient(135deg, #1b4d3e, #0d2b22);
+            color: #ffffff;
+            text-decoration: none;
+            padding: 16px 24px;
+            border-radius: 10px;
+            font-size: 1.25rem;
+            font-weight: 700;
+            letter-spacing: 1px;
+            border: 1px solid #2e7d64;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(27, 77, 62, 0.4);
+        }
+
+        .phone-button:hover {
+            transform: translateY(-2px);
+            background: linear-gradient(135deg, #236350, #133c30);
+            box-shadow: 0 6px 20px rgba(35, 99, 80, 0.6);
+        }
+
+        .phone-icon {
+            font-size: 1.3rem;
+        }
+
+        .footer {
+            margin-top: 24px;
+            font-size: 0.8rem;
+            color: #64748b;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="image-container">
+            <img src="https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?auto=format&fit=crop&w=800&q=80" alt="Land Rover Defender">
+            <span class="badge">Expert Land Rover</span>
+        </div>
+
+        <div class="content">
+            <h1>Bruno Bessou</h1>
+            <div class="subtitle">The best of the Def</div>
+            <p class="tagline">Spécialiste en réparation & restauration de Land Rover Defender</p>
+
+            <a href="tel:0666224600" class="phone-button">
+                <span class="phone-icon">📞</span> 06.66.22.46.00
+            </a>
+
+            <div class="footer">
+                Cliquez sur le numéro pour appeler directement
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
